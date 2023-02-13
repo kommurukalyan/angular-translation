@@ -1,0 +1,20 @@
+<nav>
+  <a class="button" routerLink="/cricket" (click)="navigateToCricket()">Cricket</a> |
+  <a class="button" routerLink="/football" (click)="navigateToFootball()">football</a>
+  <a class="button" routerLink="/test" (click)="navigateToTest()">Test</a>
+</nav>
+
+<div>
+  <h1>{{ 'demo.title' | translate }}</h1>
+  <p>{{ 'demo.text' | translate }}</p>
+
+</div>
+<div>
+<button (click)="useLanguage('en')">en</button>
+<button (click)="useLanguage('sp')">sp</button>
+<button (click)="useLanguage('hin')">hin</button>
+<button (click)="useLanguage('tel')">tel</button>
+</div>
+
+
+<router-outlet></router-outlet>

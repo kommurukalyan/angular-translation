@@ -1,0 +1,14 @@
+{
+    "demo": {
+        "title": "Translation demo",
+        "text": "This is a simple demonstration app for ngx-translate",
+        "hi":"hi kalyan",
+        "welcome":"welcome",
+        "test":"Iam testing",
+        "work":"It is working fine",
+        "foot":"My favourite football player is",
+        "name1":"Lionel Messi",
+        "cric":"The best batsman ever",
+        "name2":"Sachin Tendulkar"
+    }
+}
